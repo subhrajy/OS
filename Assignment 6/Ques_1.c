@@ -51,6 +51,7 @@ int main(int argc, char const *argv[]) {
     for (i = 0; i < number; i++) {
         //printf("\n%d\n", ct[i]);
     }
+    
     turnaround_time(process, number, ct, at, tat);
     waiting_time(process, number, tat, at, wt);
 
